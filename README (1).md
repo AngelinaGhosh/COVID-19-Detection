@@ -1,4 +1,5 @@
-![alt text](figs/visualization.png)
+<img width="1000" height="424" alt="image" src="https://github.com/user-attachments/assets/87db9317-d1c6-4a40-8cf2-886c0fe13f92" />
+
 
 # Detecting COVID-19 with Chest X-Ray
 
@@ -25,15 +26,18 @@ $ pip install -r requirements.txt
 ## Results
 #### Data augmentation
 The following images are generated from the training data using image augmentation. Image augmentation is a technique of altering the existing data to create some more data for the model training process and prevent the overfitting problem. 
-![alt text](figs/augment.png)
+<img width="1133" height="220" alt="image" src="https://github.com/user-attachments/assets/e877575c-67ba-4a09-b5c2-6c2efafc01b4" />
+
 
 #### Evaluation
 On 400 random test images (100 positive for COVID-19), the overall accuracy of the trained model was 95% with AUC 0.98 score.
-![alt text](figs/cm.png)
+<img width="979" height="420" alt="image" src="https://github.com/user-attachments/assets/3a69802f-0677-4132-98c6-1dbe4877219e" />
+
 
 #### Visualization
 Visual explanations through gradient-based localization using [grad-CAM](https://github.com/jacobgil/pytorch-grad-cam). The areas marked with a peak in heatmap indicate the prediction of infection with high probabilities.
-![alt text](figs/weight.png)
+<img width="1130" height="206" alt="image" src="https://github.com/user-attachments/assets/81a73d21-336f-4d49-86af-5dfb9c3c6041" />
+
 
 ## Reference
 Coursera, [DeepCOVID](https://github.com/shervinmin/DeepCovid), Deep-COVID: Predicting COVID-19 From Chest X-Ray Images Using Deep Transfer
